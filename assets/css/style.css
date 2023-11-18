@@ -1,0 +1,136 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Moditfies the first header 'Horiseon' */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Only modifies the letters 'seo' within Horiseon */
+h1 .seo {
+    color: #d9dcd6;
+}
+/* Modifies the nav links, putting them in the top left corner, inline, and changing font */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Modifies the unordered list */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* Class selector */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://www.vivint.com/sites/default/files/styles/desktop_1600_hq/public/image/2021-07/Finance-Hero-1600.jpg.webp?itok=F9KJlvtJ");
+    background-size: cover;
+    background-position: center;
+}
+/* Class selector */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Class selector */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Class selector */
+.content {
+    width: 25%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Class selector */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Modifies the first article */
+article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Modifies the benefits article. Display block sets an element to be a block-level element */
+section.benefits article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 10px;
+}
+/* The comma modifies all three articles without having to rewrite the code three times */
+article.search-engine-optimization,
+article.online-reputation-management,
+article.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    max-height: 200px;
+    width: 1460px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+section.benefits article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
